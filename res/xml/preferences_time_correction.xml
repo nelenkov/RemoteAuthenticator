@@ -21,7 +21,7 @@
     android:title="@string/timesync_sync_now_preference_title"
     android:persistent="false">
     <intent
-      android:targetPackage="com.google.android.apps.authenticator2"
+      android:targetPackage="com.google.android.apps.remoteauthenticator"
       android:targetClass="com.google.android.apps.authenticator.timesync.SyncNowActivity">
     </intent>
   </PreferenceScreen>
@@ -30,7 +30,7 @@
     android:title="@string/timesync_about_feature_preference_title"
     android:persistent="false">
     <intent
-      android:targetPackage="com.google.android.apps.authenticator2"
+      android:targetPackage="com.google.android.apps.remoteauthenticator"
       android:targetClass="com.google.android.apps.authenticator.timesync.AboutActivity">
     </intent>
   </PreferenceScreen>
