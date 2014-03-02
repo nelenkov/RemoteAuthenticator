@@ -102,7 +102,7 @@
             android:name="com.google.android.apps.authenticator.OtpService"
             android:enabled="true"
             android:exported="true"
-            android:permission="org.nick.android.apps.authenticator2.GET_OTP_CODE" >
+            android:permission="com.google.android.apps.remoteauthenticator.GET_OTP_CODE" >
         </service>
     </application>
 
